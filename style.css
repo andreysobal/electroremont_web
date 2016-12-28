@@ -1,7 +1,7 @@
 *{margin:0;padding:0;}
 
 /*Temporary settings*/
-.container{background-color:yellow;}
+.container-fluid{background-color:yellow;}
 .header{height:200px;}
 .navigation{height:50px;}
 .upperSlider{height:250px;}
