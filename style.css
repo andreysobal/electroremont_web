@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+
+/*Temporary settings*/
+.container{background-color:yellow;}
+.header{height:200px;}
+.navigation{height:50px;}
+.upperSlider{height:250px;}
+div[class^="col-"]{border:1px solid red; height:100%;}
