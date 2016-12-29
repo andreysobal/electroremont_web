@@ -1,8 +1,26 @@
-*{margin:0;padding:0;}
 
-/*Temporary settings*/
+/*Global settings*/
+*{margin:0;padding:0;}
 .container-fluid{background-color:yellow;}
-.header{height:200px;}
-.navigation{height:50px;}
-.upperSlider{height:250px;}
-div[class^="col-"]{border:1px solid red; height:100%;}
+
+/*Header*/
+.topHeader{height:10em;}
+
+/*navigation*/
+.navItem{background:green; height:3em;}
+
+/*UpperSlider*/
+.upper{background:purple; height:20em;}
+
+/*Main sections*/
+.about{background:blue; height:25em;}
+.edges{background:grey; height:20em;}
+.contacts {background:pink; height:10em;}
+.map {height:25em;}
+div[class^="col-"]{border:1px solid red; }
+.aboutHeader, .edgesHeader, .contactsHeader {height:3em;}		/*lower to do this properties more important*/
+
+/*Footer*/
+.footerItem{background:orange; height:3em;}
+.linksHeader, .links{height:10em;}
+.
