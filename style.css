@@ -4,7 +4,14 @@
 .container-fluid{background-color:yellow;}
 
 /*Header*/
-.topHeader{height:10em;}
+.topHeader{
+	height:10em; 
+	background:url(images/image001.jpg) 50% no-repeat blue;
+	background-size:30%;
+	/*-webkit-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;*/
+}
 
 /*navigation*/
 .navItem{background:green; height:3em;}
