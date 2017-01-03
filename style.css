@@ -4,7 +4,7 @@
 .container-fluid{background-color:yellow;}
 
 /*Allows to make equal a height of cols in one row */
-.header, .aside, .sectionAbout, .sectionEdges, .sectionContacts, .footer{ 
+#header, #aside, #sectionAbout, #sectionEdges, #sectionContacts, #footer{ 
 	display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -38,4 +38,4 @@ div[class^="col-"]{border:1px solid red; }
 
 /*Footer*/
 .footerItem{background:orange;}
-.linksHeader, .links{}
+.linksHeader{}
