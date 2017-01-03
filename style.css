@@ -3,9 +3,18 @@
 *{margin:0;padding:0;}
 .container-fluid{background-color:yellow;}
 
+/*Allows to make equal a height of cols in one row */
+.header, .aside, .sectionAbout, .sectionEdges, .sectionContacts, .footer{ 
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 /*Header*/
 .topHeader{
-	height:10em; 
 	background:url(images/image001.jpg) 50% no-repeat blue;
 	background-size:30%;
 	/*-webkit-background-size:cover;
@@ -20,13 +29,13 @@
 .upper{background:purple; height:20em;}
 
 /*Main sections*/
-.about{background:blue; height:25em;}
-.edges{background:grey; height:20em;}
-.contacts {background:pink; height:10em;}
+.about{background:blue;}
+.edges{background:grey;}
+.contacts {background:pink;}
 .map {height:25em;}
 div[class^="col-"]{border:1px solid red; }
 .aboutHeader, .edgesHeader, .contactsHeader {height:3em;}		/*lower to do this properties more important*/
 
 /*Footer*/
-.footerItem{background:orange; height:3em;}
-.linksHeader, .links{height:10em;}
+.footerItem{background:orange;}
+.linksHeader, .links{}
