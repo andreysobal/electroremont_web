@@ -15,10 +15,14 @@ h3 {text-align:center;}
 }
 
 /*Header*/
-#header{border:.5px solid black;border-bottom:none; color:white;}
+#header{
+	border:.5px solid black;
+	border-bottom:none; 
+	color:white;
+}
 .topHeader{
 	background:blue;
-	
+	padding:auto;
 	/*background-size:30%;
 	-webkit-background-size:cover;
 	-o-background-size:cover;
