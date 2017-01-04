@@ -2,6 +2,7 @@
 /*Global settings*/
 *{margin:0;padding:0;}
 .container-fluid{background-color:yellow;}
+h3 {text-align:center;}
 
 /*Allows to make equal a height of cols in one row */
 #header, #aside, #sectionAbout, #sectionEdges, #sectionContacts, #footer{ 
@@ -14,28 +15,36 @@
 }
 
 /*Header*/
+#header{border:.5px solid black;border-bottom:none; color:white;}
 .topHeader{
-	background:url(images/image001.jpg) 50% no-repeat blue;
-	background-size:30%;
-	/*-webkit-background-size:cover;
+	background:blue;
+	
+	/*background-size:30%;
+	-webkit-background-size:cover;
 	-o-background-size:cover;
 	-moz-background-size:cover;*/
 }
 
 /*navigation*/
-.navItem{background:green; height:3em;}
+#navigation{border:.5px solid black;text-align:center;}
+.navItem {
+	background:blue; 
+	height:3em;
+	color:white;
+}
+a:visited {color:white;}
 
 /*UpperSlider*/
-.upper{background:purple; height:20em;}
+.upper{background:white; height:20em;}
 
 /*Main sections*/
-.about{background:blue;}
-.edges{background:grey;}
-.contacts {background:pink;}
+.about{background:white;}
+.edges{background:blue;}
+.contacts {background:white;}
 .map {height:25em;}
-div[class^="col-"]{border:1px solid red; }
+/*div[class^="col-"]{border:1px solid red; }*/
 .aboutHeader, .edgesHeader, .contactsHeader {height:3em;}		/*lower to do this properties more important*/
 
 /*Footer*/
-.footerItem{background:orange;}
+.footerItem{background:blue;}
 .linksHeader{}
