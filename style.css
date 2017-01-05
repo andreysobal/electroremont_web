@@ -4,18 +4,9 @@
 .container-fluid{background-color:yellow;}
 h3 {text-align:center;}
 
-/*Allows to make equal a height of cols in one row */
-#header, #aside, #sectionAbout, #sectionEdges, #sectionContacts, #footer{ 
-	display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-flow: row wrap;
-}
-
 /*Header*/
 #header{
+	background:blue;
 	border:.5px solid black;
 	border-bottom:none; 
 	color:white;
@@ -24,46 +15,39 @@ h3 {text-align:center;}
 @media screen and (min-width: 768px) {
 	#header {
 		height:300px; 
-		color:red;
 	}
 }
 
 @media screen and (min-width: 992px) {
 	#header{
 		height:500px; 
-		color:yellow;
 	}
 }
 
-.topHeader{
-	background:blue;
-	padding:auto;
-	/*background-size:30%;
-	-webkit-background-size:cover;
-	-o-background-size:cover;
-	-moz-background-size:cover;*/
+/*navigation*/
+#navigation{
+	background:blue; 
+	border:.5px solid black;
+	text-align:center;
 }
 
-/*navigation*/
-#navigation{border:.5px solid black;text-align:center;}
 .nav {
-	background:blue; 
 	height:3em;
 	color:white;
 }
 a:visited {color:white;}
 
 /*UpperSlider*/
-.upper{background:white; height:20em;}
+#aside{background:white;}
+.upper{height:20em;}
 
 /*Main sections*/
-.about{background:white;}
-.edges{background:blue;}
-.contacts {background:white;}
+#sectionAbout{background:white;}
+#sectionEdges{background:blue;}
+#sectionContacts {background:white;}
 .map {height:25em;}
 /*div[class^="col-"]{border:1px solid red; }*/
 .aboutHeader, .edgesHeader, .contactsHeader {height:3em;}		/*lower to do this properties more important*/
 
 /*Footer*/
-.footerItem{background:blue;}
-.linksHeader{}
+#footer{background:blue;}
