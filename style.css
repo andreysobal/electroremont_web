@@ -20,6 +20,9 @@ h3 {text-align:center;}
 	height:95%;
 	margin:10px 30px;
 }
+.topHeader p {
+	margin:10px 30px;
+}
 
 /*navigation*/
 #navigation{
