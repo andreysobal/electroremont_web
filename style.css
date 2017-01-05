@@ -19,7 +19,22 @@ h3 {text-align:center;}
 	border:.5px solid black;
 	border-bottom:none; 
 	color:white;
+	height:200px;
 }
+@media screen and (min-width: 768px) {
+	#header {
+		height:300px; 
+		color:red;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#header{
+		height:500px; 
+		color:yellow;
+	}
+}
+
 .topHeader{
 	background:blue;
 	padding:auto;
@@ -31,7 +46,7 @@ h3 {text-align:center;}
 
 /*navigation*/
 #navigation{border:.5px solid black;text-align:center;}
-.navItem {
+.nav {
 	background:blue; 
 	height:3em;
 	color:white;
