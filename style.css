@@ -7,21 +7,18 @@ h3 {text-align:center;}
 /*Header*/
 #header{
 	background:blue;
-	border:.5px solid black;
-	border-bottom:none; 
 	color:white;
-	height:200px;
-}
-@media screen and (min-width: 768px) {
-	#header {
-		height:300px; 
-	}
+	
+	border:.5px solid black;
+	border-bottom:none;
+	
+	font:2.5em 'Palatino Linotype',Times serif; 
 }
 
-@media screen and (min-width: 992px) {
-	#header{
-		height:500px; 
-	}
+.titImg{
+	max-width:80%;
+	height:95%;
+	margin:10px 30px;
 }
 
 /*navigation*/
