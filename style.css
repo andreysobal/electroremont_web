@@ -8,16 +8,14 @@ h3 {text-align:center;}
 #header{
 	background:blue;
 	color:white;
-	
 	border:.5px solid black;
 	border-bottom:none;
-	
 	font:2.5em 'Palatino Linotype',Times serif; 
 }
 
 .titImg{
-	max-width:80%;
-	height:95%;
+	max-width:75%;
+	/*height:70%;*/
 	margin:10px 30px;
 }
 .topHeader p {
