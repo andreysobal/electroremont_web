@@ -55,11 +55,15 @@ a:visited {color:white;}
 .edges {
 	margin-bottom:1.5em;
 }
-
 .edges img {
 	max-width:50%;
 	height:auto;
 	background-color:white;
+	border:0.7em solid purple;
+	border-radius:20%;
+}
+.edges p {
+	text-indent: 1.5em;
 }
 
 .map {height:25em;}
