@@ -1,6 +1,6 @@
 
 /*Global settings*/
-*{margin:0;padding:0;}
+/**{margin:0 !important; padding:0 !important;}*/
 .container-fluid{background-color:yellow;}
 h3 {text-align:center; }
 
@@ -11,6 +11,7 @@ h3 {text-align:center; }
 	border:.5px solid black;
 	border-bottom:none;
 	font:2em 'Palatino Linotype',Times serif; 
+	
 }
 
 .titImg{
@@ -19,6 +20,7 @@ h3 {text-align:center; }
 }
 .topHeader ul {
 	list-style-type:none;
+	padding:2em 0 1em 1em !important;
 }
 
 
