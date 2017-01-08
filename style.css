@@ -40,13 +40,28 @@ a:visited {color:white;}
 }
 
 /*UpperSlider*/
-#aside{background:white;}
+#aside {background:white;}
 .upper{height:20em;}
 
 /*Main sections*/
-#sectionAbout{background:white;}
+#sectionAbout, #sectionContacts{background:white;}
 #sectionEdges{background:blue;}
-#sectionContacts {background:white;}
+.aboutHeader, .edgesHeader, .contactsHeader {margin-bottom:1.5em;}
+.aboutImg img{
+	max-width:100%;
+	height:auto;
+}
+
+.edges {
+	margin-bottom:1.5em;
+}
+
+.edges img {
+	max-width:50%;
+	height:auto;
+	background-color:white;
+}
+
 .map {height:25em;}
 /*div[class^="col-"]{border:1px solid red; }*/
 .aboutHeader, .edgesHeader, .contactsHeader {height:3em;}		/*lower to do this properties more important*/
