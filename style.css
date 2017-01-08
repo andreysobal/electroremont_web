@@ -15,7 +15,7 @@ h3 {text-align:center; }
 
 .titImg{
 	max-width:80%;
-	/*height:70%;*/
+	height:auto;
 }
 .topHeader ul {
 	list-style-type:none;
