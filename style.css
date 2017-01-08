@@ -22,6 +22,10 @@ h3 {text-align:center;}
 }
 .topHeader p {
 	margin:10px 30px;
+	word-wrap:nowrap !important;
+}
+.topHeader ul {
+	list-style-type:none;
 }
 
 /*navigation*/
