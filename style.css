@@ -46,23 +46,25 @@ a:visited {color:white;}
 /*Main sections*/
 #sectionAbout, #sectionContacts{background:white;}
 #sectionEdges{background:blue;}
-.aboutHeader, .edgesHeader, .contactsHeader {margin-bottom:1.5em;}
+.aboutHeader, .edgesHeader, .contactsHeader {margin-bottom:2em;}
 .aboutImg img{
 	max-width:100%;
 	height:auto;
 }
 
+#sectionEdges{padding-top:2em; padding-bottom:6em;}
 .edges {
-	margin-bottom:1.5em;
+	margin:1.2em 0;
 }
-.edgesImg {
+.edges img{
 	max-width:50%;
 	height:auto;
 	background-color:white;
 	border:0.7em solid purple;
 	border-radius:20%;
+	margin-bottom:1.5em;
 }
-.edgesText p {
+.edges p {
 	text-indent: 1.5em;
 }
 
