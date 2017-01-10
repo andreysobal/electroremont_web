@@ -46,7 +46,10 @@ a:visited {color:white;}
 
 /*UpperSlider*/
 #aside {background:white;}
-.upper{height:20em;}
+.slide{
+	height:auto;
+	width:100%;
+}
 
 /*Main sections*/
 #sectionAbout, #sectionContacts{background:white;}
