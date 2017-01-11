@@ -7,7 +7,7 @@ a:visited {color:white;}
 
 /*Header*/
 #header{
-	background:blue;
+	background:#0828B5;
 	color:white;
 	border:1px solid black;
 	border-bottom:none;
@@ -30,7 +30,7 @@ a:visited {color:white;}
 
 /*navigation*/
 #navigation{
-	background:blue; 
+	background:#0828B5; 
 	border:0.5px solid black;
 	text-align:center;
 }
@@ -46,15 +46,15 @@ a:visited {color:white;}
 
 /*UpperSlider*/
 #aside {
-	background:#D6DBE0;						 /*color light-gray*/
-	border-bottom:5px solid #C2D5DD;
+	background:#D6DBE0;						 		/*color light-gray*/
+	border-bottom:5px solid #C2D5DD;	/*color light-shadow*/
 }
 .upperSlider{
 	background-color:gray;
 	padding:0 !important;
 	margin-top:2em;
 	margin-bottom:2em;
-	border:0.1em solid blue;
+	border:0.1em solid #0828B5;
 }
 .upperSlider img{
 	width:100%;
@@ -64,9 +64,11 @@ a:visited {color:white;}
 }
 
 /*Main sections*/
-#sectionAbout, #sectionContacts{background:white;}
-#sectionEdges{background:blue;}
-#sectionAbout, #sectionContacts,	#sectionEdges, #footer {padding:1.5em 1.5em 2em 1.5em;}
+#sectionAbout, #sectionContacts{background:white; color:#061351;}  /*color darker-blue*/
+#sectionEdges{background:#0828B5; color:white;}										 /*bg-color bgBlue*/
+#sectionEdges{border-bottom:5px solid #2E3A6C;}										 /*color - darker-shadow*/
+#sectionAbout, #sectionContacts,	
+#sectionEdges, #footer {padding:1.5em 1.5em 2em 1.5em;}
 
 .aboutHeader, .edgesHeader, .contactsHeader {
 	margin-bottom:2em; 
@@ -76,7 +78,7 @@ a:visited {color:white;}
 .aboutImg img{
 	max-width:100%;
 	height:auto;
-	border:0.1em solid blue;
+	border:0.1em solid #0828B5;
 }
 
 .edges {
@@ -95,7 +97,7 @@ a:visited {color:white;}
 }
 
 .map {
-	border:0.1em solid blue;
+	border:0.1em solid #0828B5;
 	margin-bottom:2em;
 	padding:0 !important;
 }
@@ -105,4 +107,4 @@ a:visited {color:white;}
 }
 
 /*Footer*/
-#footer{background:blue;}
+#footer{background:#0828B5; color:white;}
