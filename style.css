@@ -47,7 +47,7 @@ a:visited {color:white;}
 /*UpperSlider*/
 #aside {
 	background:#D6DBE0;						 		/*color light-gray*/
-	border-bottom:5px solid #C2D5DD;	/*color light-shadow*/
+	border-bottom:5px solid #C2D5DD;	/*color lighter-shadow*/
 }
 .upperSlider{
 	background-color:gray;
@@ -66,7 +66,7 @@ a:visited {color:white;}
 /*Main sections*/
 #sectionAbout, #sectionContacts{background:white; color:#061351;}  /*color darker-blue*/
 #sectionEdges{background:#0828B5; color:white;}										 /*bg-color bgBlue*/
-#sectionEdges{border-bottom:5px solid #2E3A6C;}										 /*color - darker-shadow*/
+#sectionEdges{border-bottom:7px solid #364174;}										 /*color - darker-shadow*/
 #sectionAbout, #sectionContacts,	
 #sectionEdges, #footer {padding:1.5em 1.5em 2em 1.5em;}
 
@@ -85,10 +85,10 @@ a:visited {color:white;}
 	margin:1.2em 0;
 }
 .edges img{
-	max-width:50%;
+	max-width:65%;
 	height:auto;
 	background-color:white;
-	border:0.7em solid purple;
+	border:0.6em solid #C2D5DD;										 /*color - lighter-shadow*/
 	border-radius:20%;
 	margin-bottom:1.5em;
 }
