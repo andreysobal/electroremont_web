@@ -9,7 +9,7 @@ a:visited {color:white;}
 #header{
 	background:blue;
 	color:white;
-	border:.5px solid black;
+	border:1px solid black;
 	border-bottom:none;
 	font:2em 'Palatino Linotype',Times serif; 
 	padding:2em 1em 2em 1em 
@@ -45,13 +45,13 @@ a:visited {color:white;}
 }
 
 /*UpperSlider*/
-#aside {background:#D6DBE0;}
+#aside {background:#D6DBE0;} /*color light-gray*/
 .upperSlider{
 	background-color:gray;
-	padding:0;
+	padding:0 !important;
 	margin-top:2em;
 	margin-bottom:2em;
-	border:0.2em solid blue;
+	border:0.1em solid blue;
 }
 .upperSlider img{
 	width:100%;

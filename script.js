@@ -5,7 +5,8 @@ $(document).ready(function() {
 		autoplay: true,
 		autoplaySpeed: 5000,
 		fade: true,
-		arrows:true,
+		arrows:false,
+		dots: true,
 	});
 	$('.navMenu').click(function() {
 		var menu = $(".navItem");
