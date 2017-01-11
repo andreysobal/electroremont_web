@@ -45,11 +45,19 @@ a:visited {color:white;}
 }
 
 /*UpperSlider*/
-#aside {background:white;}
-.slider{
-	background-color:green;
+#aside {background:#D6DBE0;}
+.upperSlider{
+	background-color:gray;
+	padding:0;
+	margin-top:2em;
+	margin-bottom:2em;
+	border:0.2em solid blue;
+}
+.upperSlider img{
+	width:100%;
 	height:auto;
-	width:80%;
+	padding:0;
+	margin:0;
 }
 
 /*Main sections*/
