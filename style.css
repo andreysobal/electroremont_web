@@ -65,10 +65,13 @@ a:visited {color:white;}
 
 /*Main sections*/
 #sectionAbout, #sectionContacts{background:white; color:#061351;}  /*color darker-blue*/
-#sectionEdges{background:#0828B5; color:white;}										 /*bg-color bgBlue*/
-#sectionEdges{border-bottom:7px solid #364174;}										 /*color - darker-shadow*/
+#sectionEdges{
+	background:#0828B5; 										 /*bg-color bgBlue*/
+	color:white; 
+	border-bottom:7px solid #364174; 				 /*color - darker-shadow*/
+}
 #sectionAbout, #sectionContacts,	
-#sectionEdges, #footer {padding:1.5em 1.5em 2em 1.5em;}
+#sectionEdges {padding:1.5em 1.5em 2em 1.5em;}
 
 .aboutHeader, .edgesHeader, .contactsHeader {
 	margin-bottom:2em; 
@@ -107,4 +110,12 @@ a:visited {color:white;}
 }
 
 /*Footer*/
+#footer {padding:1em 1em 1em 1em;}
 #footer{background:#0828B5; color:white;}
+#footer h3 {
+	display:inline-block;
+	margin:0 !important;
+}
+#devLink, #copypast {
+	padding-top:3em;
+}
