@@ -29,5 +29,17 @@ $(document).ready(function() {
 		};//end if
 	}); //end click
 	
+	$(".edges img").each(function() {
+		var imgFile = $(this).attr('src');
+		var preloadImage = new Image();
+		preloadImage.src = imgFile.replace(/.png/g, "_inv.png");
+		$(this).hover(function(){
+			$(this).attr("src", preloadImage.src);
+			$(this).css("backgroundColor", "#0828B5");
+		}, function(){
+			$(this).attr("src", imgFile);
+			$(this).css("backgroundColor", "white")
+		}); // end hover
+	}); // end each
 	
 }); //end ready
