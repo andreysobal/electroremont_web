@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.autoplay').slick({
+	$('.autoplay').slick({ 							 //activate and tune a slider
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
@@ -7,8 +7,9 @@ $(document).ready(function() {
 		fade: true,
 		arrows:false,
 		dots: true,
-	});
-	$('.navMenu').click(function() {
+	});//end autoplay
+	
+	$('.navMenu').click(function() {			//for hide and tougle menu on extra-small screens
 		var menu = $(".navItem");
 		var nav = $(this);
 		if (menu.is(':hidden')) {
@@ -26,5 +27,7 @@ $(document).ready(function() {
 			nav.css("border-bottom", "none");
 			$("#navigation").css("border-bottom", "0.5px solid black");
 		};//end if
-	}); // окончание click
-}); // окончание ready
+	}); //end click
+	
+	
+}); //end ready
