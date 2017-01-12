@@ -34,11 +34,15 @@ $(document).ready(function() {
 		var preloadImage = new Image();
 		preloadImage.src = imgFile.replace(/.png/g, "_inv.png");
 		$(this).hover(function(){
+			$(this).stop().animate({
+				backgroundColor:"#364174"
+				}, 800, 'easeOutExpo');//end enter animate
 			$(this).attr("src", preloadImage.src);
-			$(this).css("backgroundColor", "#0828B5");
 		}, function(){
+			$(this).stop().animate({
+				backgroundColor:"white"
+				}, 800, 'easeInSine');//end mouseleave animate
 			$(this).attr("src", imgFile);
-			$(this).css("backgroundColor", "white")
 		}); // end hover
 	}); // end each
 	
