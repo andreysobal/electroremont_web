@@ -1,7 +1,7 @@
 
 /*Global settings*/
-/**{margin:0 !important; padding:0 !important;}*/
-.container-fluid{background-color:yellow;}
+body{background-color:#F4F7FA !important;}
+.container{background-color:yellow;}
 h3 {text-align:center; }
 a:visited {color:white;}
 
