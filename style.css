@@ -96,9 +96,11 @@ a:visited {color:#F4F7FA;}												/*color extra-light-gray*/
 	margin-left:0.5em;
 	border:0.1em solid #0828B5;  						 /*color Blue*/
 }
-.about p {text-align:justify;}
+.about p, .about li {
+	text-align:justify;
+	list-style-type:circle;
+}
 .about ul {padding-left:1em !important;}
-.about li {list-style-type:circle;}
 .edges {
 	margin:1.2em 0;
 }
