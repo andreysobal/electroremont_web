@@ -3,7 +3,8 @@
 body{background-color:#F4F7FA !important;}
 .container{background-color:yellow;}
 h3 {text-align:center; }
-a:visited {color:white;}
+a:link, a:active {color:white;}
+a:visited {color:#F4F7FA;}
 
 /*Header*/
 #header{
@@ -42,6 +43,13 @@ a:visited {color:white;}
 .nav a, .nav i {
 	display:inline-block;
 	margin-top:1em !important;	
+}
+.nav:hover {
+	background-color:#061351;					/*color darker-blue*/			
+}
+.nav a:hover {
+	color:#F4F7FA !important;					/*color extra-light-gray*/
+	text-decoration:none !important;
 }
 
 /*UpperSlider*/
@@ -115,6 +123,11 @@ a:visited {color:white;}
 #footer h3 {
 	display:inline-block;
 	margin:0 !important;
+}
+#footer a:hover {
+	color:#F4F7FA !important; 
+	border-bottom:0.2px dashed #F4F7FA;
+	text-decoration:none !important;
 }
 #devLink, #copypast {
 	padding-top:3em;
