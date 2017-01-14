@@ -1,10 +1,9 @@
 $(document).ready(function() {
 	$('.autoplay').slick({ 							 //activate and tune a slider
-		slidesToShow: 1,
-		slidesToScroll: 1,
+		slidesToShow: 3,
+		slidesToScroll: 3,
 		autoplay: true,
-		autoplaySpeed: 5000,
-		fade: true,
+		autoplaySpeed: 4000,
 		arrows:false,
 		dots: true,
 	});//end autoplay

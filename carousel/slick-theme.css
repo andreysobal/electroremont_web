@@ -179,14 +179,14 @@
 {
     font-family: 'slick';
     font-size: 10px;
-    line-height: 20px;
+    line-height: 10px;
 
     position: absolute;
-    top: 0;
+    top: 60px;
     left: 0;
 
-    width: 15px;
-    height: 15px;
+    width: 8px;
+    height: 8px;
 		border:1px solid blue;
 		border-radius:40%;
 
