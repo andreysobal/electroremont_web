@@ -7,7 +7,7 @@
 
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
-	font:12px 'PT Sans', sans-serif;
+	font:14pt/16pt 'PT Sans', sans-serif !important;
 }
 .container{background-color:yellow;}
 h3 {text-align:center; }
@@ -20,21 +20,20 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	color:white;
 	border:1px solid #061351;								/*color darker-blue*/
 	border-bottom:none;
-	font:2em 'Palatino Linotype',Times serif; 
-	padding:2em 1em 2em 1em 
+	font:2em 'Palatino Linotype',Times, serif; 
+	padding:2em 1em 0 1em 
 }
 .text-hide {display:none;}
-.titImg, .titCont {
-	margin-left:auto;
-	margin-right:auto;
-}
 .titImg{
-	display: inline-block;
+	display: block;
+	margin-bottom:2em;
 }
 
-.topHeader ul {
-	list-style-type:none;
-	padding:0;
+.topHeader p{
+	font-size:55% !important;
+	display: inline-block !important;
+	margin-left:auto !important;
+	margin-right:auto !important;
 }
 
 /*navigation*/
@@ -116,9 +115,6 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	border:0.6em solid #C2D5DD;				 /*color - lighter-shadow*/
 	border-radius:20%;
 	margin-bottom:1.5em;
-}
-.edges p {
-	text-indent: 1.5em;
 }
 
 .map {
