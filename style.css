@@ -28,12 +28,8 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	display: block;
 	margin-bottom:2em;
 }
-
 .topHeader p{
 	font-size:55% !important;
-	display: inline-block !important;
-	margin-left:auto !important;
-	margin-right:auto !important;
 }
 
 /*navigation*/
