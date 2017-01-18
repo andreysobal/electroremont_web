@@ -7,7 +7,7 @@
 
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
-	font:14pt/16pt 'PT Sans', sans-serif !important;
+	font:light 14pt/18pt 'Open Sans Condensed', sans-serif !important;
 }
 .container{background-color:yellow;}
 h3 {text-align:center; }
