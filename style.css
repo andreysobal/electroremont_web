@@ -8,6 +8,7 @@
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
 	font:light 14pt/18pt 'Open Sans Condensed', sans-serif !important;
+	padding-top: 40px;
 }
 .container{background-color:yellow;}
 h3 {text-align:center; }
