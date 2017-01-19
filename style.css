@@ -35,8 +35,9 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 /*navigation*/
 #navigation{
 	background:#0828B5;   						  /*color Blue*/
-	/*border:0.5px solid #061351;					/*color darker-blue*/
+	border-bottom:0.5px solid #061351;					/*color darker-blue*/
 	text-align:center;
+	padding:0 !important;
 }
 
 .nav a, .nav i {
