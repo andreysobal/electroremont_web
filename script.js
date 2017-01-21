@@ -37,11 +37,13 @@ $(document).ready(function() {
 				backgroundColor:"#364174"
 				}, 800, 'easeOutExpo');//end enter animate
 			$(this).find("img").attr("src", preloadImage.src);
+			$(this).find("p").attr("style", "color:white");
 		}, function(){
 			$(this).find("img").stop().animate({
 				backgroundColor:"white"
 				}, 800, 'easeInSine');//end mouseleave animate
 			$(this).find("img").attr("src", imgFile);
+			$(this).find("p").attr("style", "color:grey");
 		}); // end hover
 	}); // end each
 	
