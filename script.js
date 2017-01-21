@@ -28,20 +28,20 @@ $(document).ready(function() {
 		};//end if
 	}); //end click
 	
-	$(".edges img").each(function() {
-		var imgFile = $(this).attr('src');
+	$(".edgeItem").each(function() {				//animation in the section Edges
+		var imgFile = $(this).find("img").attr('src');
 		var preloadImage = new Image();
 		preloadImage.src = imgFile.replace(/.png/g, "_inv.png");
 		$(this).hover(function(){
-			$(this).stop().animate({
+			$(this).find("img").stop().animate({
 				backgroundColor:"#364174"
 				}, 800, 'easeOutExpo');//end enter animate
-			$(this).attr("src", preloadImage.src);
+			$(this).find("img").attr("src", preloadImage.src);
 		}, function(){
-			$(this).stop().animate({
+			$(this).find("img").stop().animate({
 				backgroundColor:"white"
 				}, 800, 'easeInSine');//end mouseleave animate
-			$(this).attr("src", imgFile);
+			$(this).find("img").attr("src", imgFile);
 		}); // end hover
 	}); // end each
 	
