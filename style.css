@@ -7,7 +7,7 @@
 
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
-	font:light 14pt/18pt 'Open Sans Condensed', sans-serif !important;
+	font:light 12pt/14pt 'Open Sans Condensed', sans-serif !important;
 	padding-top: 40px;
 }
 .container{background-color:yellow;}
@@ -84,7 +84,7 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	color:white; 
 	border-bottom:7px solid #364174; 			 /*color - darker-shadow*/
 }
-.edgeItem p {color:gray;}
+.edgeItem p {color:#CFCBE8;}
 #sectionAbout, #sectionContacts,	
 #sectionEdges {padding:1.5em 1.5em 2em 1.5em;}
 

@@ -43,7 +43,7 @@ $(document).ready(function() {
 				backgroundColor:"white"
 				}, 800, 'easeInSine');//end mouseleave animate
 			$(this).find("img").attr("src", imgFile);
-			$(this).find("p").attr("style", "color:grey");
+			$(this).find("p").attr("style", "color:#CFCBE8");
 		}); // end hover
 	}); // end each
 	
