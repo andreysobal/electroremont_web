@@ -7,8 +7,7 @@
 
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
-	font:light 12pt/14pt 'Open Sans Condensed', sans-serif !important;
-	padding-top: 40px;
+	font:500 12pt/18pt "Roboto Condensed", sans-serif !important;
 }
 .container{background-color:yellow;}
 h3 {text-align:center; }
@@ -22,7 +21,7 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	/*border:1px solid #061351;								/*color darker-blue*/
 	border-bottom:none;
 	font:2em 'Palatino Linotype',Times, serif; 
-	padding:2em 1em 0 1em 
+	padding:2.5em 1em 0 1em 
 }
 .text-hide {display:none;}
 .titImg{
@@ -44,7 +43,7 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 
 .nav a, .nav i {
 	display:block;
-	padding:0.8em !important;
+	padding:0.5em !important;
 	color:white;
 }
 .nav:hover {
