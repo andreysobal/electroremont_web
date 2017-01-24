@@ -8,6 +8,21 @@ $(document).ready(function() {
 		dots: true,
 	});//end autoplay
 	
+		$('.slider-for').slick({ 							 //activate and tune a slider
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.slider-nav'
+	});
+	$('.slider-nav').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		asNavFor: '.slider-for',
+		centerMode: true,
+		focusOnSelect: true
+});//end lowerSlider
+	
 	$('.navMenu').click(function() {			//for hide and tougle menu on extra-small screens
 		var menu = $(".navItem");
 		var nav = $(this);

@@ -126,6 +126,22 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	height:30em;
 }
 
+.lowerSlider{
+	background-color:white;
+	margin-top:2em;
+	margin-bottom:2em;
+	border:0.1em solid #0828B5;  				/*color Blue*/
+}
+.slideShow{
+	min-width:100%;
+	height:30em;
+	padding:0 !important;
+}
+.slideNav {
+	min-width:100%;
+	height:5em;
+}
+
 /*Footer*/
 #footer {padding:1em 1em 1em 1em;}
 #footer{background:#0828B5; color:white;}   				 /*bg-color Blue*/
