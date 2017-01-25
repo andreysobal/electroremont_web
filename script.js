@@ -20,6 +20,7 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 		asNavFor: '.slider-for',
 		centerMode: true,
+		arrows: false,
 		focusOnSelect: true
 });//end lowerSlider
 	
