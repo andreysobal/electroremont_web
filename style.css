@@ -130,13 +130,13 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	background-color:white;
 }
 .slider-for {
-	border:0.1em solid #0828B5;  				/*color Blue*/
-	padding:0.3em 0.2em !important;
 	margin-bottom:1em;
 }
 .slideShow{
-	min-width:100%;
-	height:25em;
+	width:auto;
+	max-height:25em;
+	border:0.1em solid #0828B5;  				/*color Blue*/
+	padding:0.3em 0.2em !important;
 }
 .slideNav {
 	min-width:100%;
