@@ -46,6 +46,14 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	padding:0.5em !important;
 	color:white;
 }
+
+.nav a:active, 
+.nav a:visited, 
+.nav a:link {
+	color:white;
+	text-decoration:none;
+}
+
 .nav:hover {
 	background-color:#061351;					/*color darker-blue*/			
 }
