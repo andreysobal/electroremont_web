@@ -63,4 +63,10 @@ $(document).ready(function() {
 		}); // end hover
 	}); // end each
 	
+	$(".navItem").click(function(){					//slow scroll to selected taget
+		var target = $(this).find("a").attr("href");
+		$('html, body').animate({scrollTop: $(target).offset().top}, 500);
+		return false;
+	});
+	
 }); //end ready
