@@ -16,7 +16,7 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 
 /*Header*/
 #header{
-	background:#0828B5;   									 /*color Blue*/
+	background:#0828B5;   										 /*color Blue*/
 	color:white;
 	/*border:1px solid #061351;								/*color darker-blue*/
 	border-bottom:none;
@@ -28,6 +28,9 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	display: block;
 	margin-bottom:2em;
 	width:80%;
+}
+.maxForm img{
+	max-width:100%;
 }
 .topHeader p{
 	font-size:55% !important;
