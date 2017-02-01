@@ -83,5 +83,5 @@ $(document).ready(function() {
 		return false;
 	});
 	
-	$(".fancybox").fancybox();
+	$(".fancybox").fancybox();   		//activate fancybox plagin pushing on the button
 }); //end ready
