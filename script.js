@@ -69,4 +69,17 @@ $(document).ready(function() {
 		return false;
 	});
 	
+	$("#callback").submit(function() {				//send a callback form 
+		$.ajax({
+			type: "GET",
+			url: "mail.php",
+			data: $("#callback").serialize()
+		}).done(function() {
+			alert("Мы перезвоним в ближайшее время!");
+			setTimeout(function() {
+				$.fancybox.close();
+			}, 1000);
+		});
+		return false;
+	});
 }); //end ready
