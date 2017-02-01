@@ -1,7 +1,7 @@
 <?php
 
-$recepient = "youmail@ya.ru";
-$sitename = "Название сайта";
+$recepient = "say6287@gmail.com";
+$sitename = "electroremont.by";
 
 $name = trim($_GET["name"]);
 $phone = trim($_GET["phone"]);
