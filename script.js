@@ -82,4 +82,6 @@ $(document).ready(function() {
 		});
 		return false;
 	});
+	
+	$(".fancybox").fancybox();
 }); //end ready
