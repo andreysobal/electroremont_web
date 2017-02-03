@@ -69,6 +69,8 @@ $(document).ready(function() {
 		return false;
 	});
 	
+	$(".fancybox").fancybox();  		//activate fancybox plagin pushing on the button
+	
 	$("#callback").submit(function() {				//send a callback form 
 		$.ajax({
 			type: "GET",
@@ -83,5 +85,5 @@ $(document).ready(function() {
 		return false;
 	});
 	
-	$(".fancybox").fancybox();   		//activate fancybox plagin pushing on the button
+	
 }); //end ready

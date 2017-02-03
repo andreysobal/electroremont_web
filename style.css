@@ -186,3 +186,6 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 #devLink, #copypast {
 	padding-top:3em;
 }
+.hidden {
+	display: none;
+}
