@@ -43,7 +43,9 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 	text-align:center;
 	padding:0 !important;
 }
-
+.navMenu{
+	padding:0.25em !important;
+}
 .nav a, .nav i {
 	display:block;
 	padding:0.5em !important;
