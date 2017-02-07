@@ -200,19 +200,24 @@ body textarea:required:valid {
 .hidden {
 	display: none;
 }
-.pop_form input[type="text"] {
-    display: block;
-    line-height: 24px;
-    margin: 0 auto 12px;
-    width: 90%;
-    border: #999 3px solid;
+.pop_form {
+	color:#061351;								 /*color darker-blue*/
+}
+.pop_form input {
+  display: block;
+  line-height: 24px;
+  margin: 0 auto 12px;
+  width: 95%;
+  border: #999 3px solid;
 }
 .pop_form .button {
 	margin: 20px auto 0;
+	background-color:#0828B5;								/*color Blue*/
+	color:#F4F7FA;							 						/*color extra-light-gray*/
 }
 .pop_form h3 {
-    margin: 10px auto 15px;
-    text-align: center;
-    font-weight: normal;
-    text-transform: uppercase;
+  margin: 10px auto 15px;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
 }
