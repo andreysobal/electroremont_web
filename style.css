@@ -10,7 +10,10 @@ body{
 	font:500 12pt/18pt "Roboto Condensed", sans-serif !important;
 }
 .container{background-color:yellow;}
-h3 {text-align:center; }
+h3 {
+	text-align:center;
+	font-size:180% !important;
+}
 a:link, a:active {color:white; text-decoration:none !important;}
 a:visited {color:#F4F7FA !important; text-decoration:none !important;}							/*color extra-light-gray*/
 
@@ -18,7 +21,6 @@ a:visited {color:#F4F7FA !important; text-decoration:none !important;}							/*c
 #header{
 	background:#0828B5;   										 /*color Blue*/
 	color:white;
-	/*border:1px solid #061351;								/*color darker-blue*/
 	border-bottom:none;
 	font:2em 'Palatino Linotype',Times, serif; 
 	padding:2.5em 1em 0 1em 
