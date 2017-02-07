@@ -1,13 +1,7 @@
 
-/*Global settings*/
-/*@font-face{
-	font-family: 'PT Sans', sans-serif;
-	src:url(https://fonts.googleapis.com/css?family=PT+Sans);
-}*/
-
 body{
 	background-color:#F4F7FA !important;					 /*color extra-light-gray*/
-	font:500 12pt/18pt "Roboto Condensed", sans-serif !important;
+	font:500 12pt/18pt "RobotoRegular", sans-serif !important;
 }
 .container{background-color:yellow;}
 h3 {
@@ -15,14 +9,14 @@ h3 {
 	font-size:180% !important;
 }
 a:link, a:active {color:white; text-decoration:none !important;}
-a:visited {color:#F4F7FA !important; text-decoration:none !important;}							/*color extra-light-gray*/
+a:visited {text-decoration:none !important;}							
 
 /*Header*/
 #header{
 	background:#0828B5;   										 /*color Blue*/
 	color:white;
 	border-bottom:none;
-	font:2em 'Palatino Linotype',Times, serif; 
+	font:2em 'RobotoRegular',Times, serif; 
 	padding:2.5em 1em 0 1em 
 }
 .text-hide {display:none;}
@@ -192,6 +186,9 @@ a:visited {color:#F4F7FA !important; text-decoration:none !important;}							/*c
 	color:#F4F7FA !important; 
 	border-bottom:0.2px dashed #F4F7FA;							/*color extra-light-gray*/
 	text-decoration:none !important;
+}
+#footer a:visited {
+	color:#F4F7FA !important;   															/*color extra-light-gray*/
 }
 #devLink, #copypast {
 	padding-top:3em;
