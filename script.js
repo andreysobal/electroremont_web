@@ -25,21 +25,23 @@ $(document).ready(function() {
 });//end lowerSlider
 	
 	$('.navMenu').click(function() {			//for hide and tougle menu on extra-small screens
-		var menu = $(".navItem");
+		var menu = $(".hidMenu");
 		var nav = $(this);
 		if (menu.is(':hidden')) {
-			$(menu).each(function() {
-				$(this).removeClass('hidden-xs').css("border-bottom", "0.5px dotted black");
-				console.log("+++");
+			$(menu).removeClass('hidden-xs');
+			$(".navItem").each(function() {
+				$(this).css("border-bottom", "0.5px dotted black");
 			});//end each
 			nav.css("border-bottom", "0.5px solid black");
+			$(".smNav").css("border-bottom", "0.5px solid black");
 			$("#navigation").css("border-bottom", "none");
 		} else {
-			$(menu).each(function() {
-				$(this).addClass('hidden-xs').css("border-bottom", "none");
-				console.log("---");
+			$(menu).addClass('hidden-xs');
+			$(".navItem").each(function() {
+				$(this).css("border-bottom", "none");
 			});//end each
 			nav.css("border-bottom", "none");
+			$(".smNav").css("border-bottom", "none");
 			$("#navigation").css("border-bottom", "0.5px solid black");
 		};//end if
 	}); //end click
