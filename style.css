@@ -188,6 +188,31 @@ a:visited {color:#F4F7FA;}							/*color extra-light-gray*/
 #devLink, #copypast {
 	padding-top:3em;
 }
+
+input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
 .hidden {
 	display: none;
+}
+.pop_form input[type="text"] {
+    display: block;
+    line-height: 24px;
+    margin: 0 auto 12px;
+    width: 90%;
+    border: #999 3px solid;
+}
+.pop_form .button {
+	margin: 20px auto 0;
+}
+.pop_form h3 {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
 }
