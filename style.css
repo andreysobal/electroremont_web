@@ -50,6 +50,7 @@ a:visited {color:#F4F7FA !important; text-decoration:none !important;}							/*c
 }
 .navMenu{
 	padding:0.25em !important;
+	cursor:pointer;
 }
 .nav a, .nav i {
 	display:block;
