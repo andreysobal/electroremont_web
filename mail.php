@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "say6287@gmail.com";
+$recepient = "rann86@mail.ru";
 $sitename = "http//:www.электроремонт.бел";
 
 $name = trim($_GET["name"]);
