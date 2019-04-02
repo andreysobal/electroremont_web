@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /index.html
+User-agent: Yandex
+Allow: /index.html
